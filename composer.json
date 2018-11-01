@@ -1,11 +1,11 @@
 {
-    "name": "laracasts/flash",
-    "description": "Easy flash notifications",
+    "name": "eamirgh/bulma-flash",
+    "description": "Easy flash notifications with bulma",
     "license": "MIT",
     "authors": [
         {
-            "name": "Jeffrey Way",
-            "email": "jeffrey@laracasts.com"
+            "name": "Amir Ghaffari Heravi",
+            "email": "a.g.h.94.72@gmail.com"
         }
     ],
     "require": {
@@ -18,20 +18,20 @@
     },
     "autoload": {
         "psr-0": {
-            "Laracasts\\Flash": "src/"
+            "Eamirgh\\Flash": "src/"
         },
         "files": [
-            "src/Laracasts/Flash/functions.php"
+            "src/Eamirgh/Flash/functions.php"
         ]
     },
     "minimum-stability": "stable",
     "extra": {
         "laravel": {
             "providers": [
-                "Laracasts\\Flash\\FlashServiceProvider"
+                "Eamirgh\\Flash\\FlashServiceProvider"
             ],
             "aliases": {
-                "Flash": "Laracasts\\Flash\\Flash"
+                "Blash": "Eamirgh\\Flash\\Flash"
             }
         }
     }
