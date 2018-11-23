@@ -1,4 +1,5 @@
-# Easy Flash Messages for Your Laravel App
+# Easy Flash Messages for Your Laravel App via Bulma 
+[![Build Status](https://travis-ci.com/eamirgh/bulma-flash.svg?branch=master)](https://travis-ci.com/eamirgh/bulma-flash)
 
 This composer package offers a Twitter Bootstrap optimized flash messaging setup for your Laravel applications.
 
