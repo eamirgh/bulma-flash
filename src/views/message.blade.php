@@ -9,7 +9,6 @@
         <article class="message is-{{ $message['level'] }} {{ $message['important'] ? 'alert-important' : '' }}"
                  role="alert">
             <div class="message-header">
-                <p>Info</p>
                 @if ($message['important'])
                 <button class="delete" aria-label="delete"></button>
                 @endif
